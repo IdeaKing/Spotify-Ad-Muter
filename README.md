@@ -23,14 +23,14 @@ A prebuilt binary has already been built and can be accessed here:
 2. CD into the main directory
 3. Install requirements
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
   
 4. Compile using pyinstaller
 
-    pyinstaller "mute-ify/mute-ify.py" --onefile -i "mute-ify/mute-ify.ico"  
+        pyinstaller "mute-ify/mute-ify.py" --onefile -i "mute-ify/mute-ify.ico"  
 
 - Note: If an error occurs:
   
-    pyinstaller "src/main.py" --onefile -i "src/mute-ify.ico"
+        pyinstaller "src/main.py" --onefile -i "src/mute-ify.ico"
   
   
