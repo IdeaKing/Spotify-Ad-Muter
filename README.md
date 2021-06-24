@@ -13,11 +13,11 @@ Upcoming:
 
 ## Installation Guide
 
-### Use precompile binaries.
+### 1 Use precompile binaries.
 
 A prebuilt binary has already been built and can be accessed here:
 
-### Compile manually
+### 2 Compile manually
 
 1. Clone repository
 2. CD into the main directory
