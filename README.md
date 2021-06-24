@@ -21,16 +21,19 @@ A prebuilt binary has already been built and can be accessed here:
 
 1. Clone repository
 2. CD into the main directory
-3. Install requirements
+3. Install requirements in virtual environment
 
+        python -m venv venv
+        venv/Scripts/activate
         pip install -r requirements.txt
   
 4. Compile using pyinstaller
 
         pyinstaller "mute-ify/mute-ify.py" --onefile -i "mute-ify/mute-ify.ico"  
 
-- Note: If an error occurs:
+- Note: If an error occurs uninstall enum34
   
-        pyinstaller "src/main.py" --onefile -i "src/mute-ify.ico"
-  
+        pip uninstall -y -y enum34
+
+5. Now the executable should be in the generated "dist" folder.
   
