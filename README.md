@@ -15,7 +15,7 @@ Upcoming:
 
 ### 1. Use precompiled binaries.
 
-A prebuilt binary has already been built and can be accessed here:
+A prebuilt binary has already been built and can be accessed here: https://github.com/IdeaKing/Spotify-Ad-Muter/releases/tag/v1.0.0
 
 ### 2. Compile manually
 
