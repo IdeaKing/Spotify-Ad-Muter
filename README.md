@@ -33,7 +33,7 @@ A prebuilt binary has already been built and can be accessed here:
 
 - Note: If an error occurs uninstall enum34
   
-        pip uninstall -y -y enum34
+        pip uninstall -y enum34
 
 5. Now the executable should be in the generated "dist" folder.
   
